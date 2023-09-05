@@ -74,15 +74,15 @@ export default function Home() {
           <div>
             <div className="text-2xl">Hey, there &nbsp;</div>
             <br />
-            <div className="text-4xl text-teal-500 font-bold ">
+            <div className="text-4xl text-teal-500 font-bold">
               Welcome to my portfolio which is a representation of all that
-              I've learned and acconplished as a computer science student
+              I have learned and acconplished as a computer science student
             </div>
           </div>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <div> &nbsp;</div>
             <div className="text-3xl text-teal-500 text-bold"></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
