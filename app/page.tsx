@@ -75,8 +75,8 @@ export default function Home() {
             <div className="text-2xl">Hey, there &nbsp;</div>
             <br />
             <div className="text-4xl text-teal-500 font-bold ">
-              "Welcome to my portfolio which is a representation of all that
-              I've learned and acconplished as a computer science student"
+              Welcome to my portfolio which is a representation of all that
+              I've learned and acconplished as a computer science student
             </div>
           </div>
           <div className="flex justify-center">
