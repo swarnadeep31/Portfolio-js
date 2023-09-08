@@ -11,14 +11,13 @@ interface Data {
 }
 
 async function getProjects() {
-  const query = `*[_type == "project"]{
+  const query = `*[_type == "project"] {
     title,
       overview,
       link,
       _id,
-      "imageUrl":image.asset->url
+      "imageUrl": image.asset->url
   }`;
-
   const data = await client.fetch(query);
 
   return data;
@@ -59,7 +58,7 @@ export default async function Projects() {
                 {project.overview}
               </p>
               <a href={project.link} target="_blank" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-teal-500">
-                Lean More !
+                LIVE LINK !
                 <span className="block transition-all group-hover:ms-0.5">
                   &rarr;
                 </span>
