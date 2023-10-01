@@ -69,6 +69,7 @@ export default function Home() {
               </svg>
             </Link>
           </div>
+          
         </div>
         <div className="porse max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
           <div>
